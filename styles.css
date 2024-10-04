@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+body{
+  background-color: hsl(13, 31%, 94%);
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.menu{
+  padding: 10px 0;
+}
+
+.menu-item img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.menu-item{
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+
+.menu-item-content h2{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu-item-content .category{
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(7, 20%, 60%);
+}
+
+.menu-item-content .price{
+  font-size: 14px;
+  color: hsl(14, 86%, 42%);
+  font-weight: 600;
+}
+
+.btn{
+  border: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  background: none;
+  padding: 10px;
+}
+
+.add-to-cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsl(14, 86%, 42%);
+  border-radius: 50px;
+  background-color: white;
+  width: 130px;
+}
+
+.add-to-cart img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
